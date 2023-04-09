@@ -1,0 +1,56 @@
+h1{
+	border:5px solid red;
+}
+
+h2{	border: 5px solid blue;
+}
+
+h3{border: 5px dotted yellow;}
+
+h4{border:5px solid darkgreen;}
+
+h5{border:5px solid red;}
+
+h6{border:5px solid pink;}
+
+
+h1 {
+  border: 5px solid red;
+}
+
+h2 {
+  border: 4px dotted blue;
+}
+
+div {
+  border: 7px double;
+}
+.example1 {
+  box-sizing: content-box;  
+  width: 300px;
+  height: 100px;
+  padding: 30px;  
+  border: 10px solid yellow;
+}
+
+.example2 {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  padding: 30px;  
+  border: 10px solid pink;
+}
+
+.animation{
+
+  width: 100px;
+  height:100px;
+  background: pink;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove{
+
+  from{left:0px;}
+  to{left:200px;}
+}
